@@ -1,0 +1,63 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: grey;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+header {
+  padding: 30px;
+  text-align: center;
+  background-color: #363636;
+  color: blanchedalmond;
+}
+nav {
+  background-color: #292929;
+  text-align: center;
+  padding: 10px;
+  font: size 50px;
+}
+nav a {
+  text-decoration: none;
+  color: antiquewhite;
+
+  padding: 10px;
+}
+nav a:hover {
+  background-color: black;
+  color: blanchedalmond;
+}
+.content {
+  font-size: 25px;
+  background-color: burlywood;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 20px;
+  text-align: justify;
+}
+.card img {
+  width: 50px;
+  height: 50px;
+  margin-left: 40%;
+}
+.card p {
+  color: #555;
+}
+.card {
+  background-color: white;
+  width: 30%;
+  text-align: center;
+  padding: 50px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 8px black;
+  transition: transform 0.3s ease-in-out;
+  text-align: justify;
+}
+main {
+  display: flex;
+  justify-content: space-around;
+}
+.card:hover {
+  transform: scale(1.05);
+  background-color: bisque;
+}
